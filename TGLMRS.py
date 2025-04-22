@@ -38,7 +38,11 @@ EMAIL_HOST='smtp.qq.com'
 EMAIL_PORT=587
 EMAIL_USER='201347636@qq.com'
 EMAIL_PASS='tnpdwjkjrszqbjdf'
-RECIPIENTS=[str(recipients)]
+if recipients=='1949':
+    print('--+--伟大领袖毛主席万岁！全体中国人民万岁！全世界无产者联合起来！--+--')
+    print('---这是一个彩蛋，请重新运行程序并输入正确的邮箱地址！----')
+else:
+    RECIPIENTS=[str(recipients)]
 # 初始化MediaPipe姿势识别
 mp_pose=mp.solutions.pose
 pose=mp_pose.Pose(
