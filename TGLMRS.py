@@ -36,8 +36,8 @@ recipients=input('请输入接收端的邮箱地址：')
 # 邮件报警配置
 EMAIL_HOST='smtp.qq.com'
 EMAIL_PORT=587
-EMAIL_USER='201347636@qq.com'
-EMAIL_PASS='tnpdwjkjrszqbjdf'
+EMAIL_USER=''
+EMAIL_PASS=''
 if recipients=='1949':
     print('--+--伟大领袖毛主席万岁！全体中国人民万岁！全世界无产者联合起来！--+--')
     print('---这是一个彩蛋，请重新运行程序并输入正确的邮箱地址！----')
